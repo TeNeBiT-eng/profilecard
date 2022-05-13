@@ -9,7 +9,15 @@
 
 body{
     background-color: hsl(185, 75%, 39%);
+    background-image: url(/images/bg-pattern-bottom.svg);
+    background-size: 100% 100%;
+    background-position: 9rem 15rem;
+    background-repeat: no-repeat;
 }
+
+/* {
+    background-image: url(/images/bg-pattern-top.svg);
+} */
 
 section{
     display: flex;
@@ -18,15 +26,13 @@ section{
     width: 100%;
     padding: 90px 10px;
     /* background-image: url(/images/bg-pattern-top.svg); */
-    background-image: url(/images/bg-pattern-bottom.svg);
-    background-size: ;
-    background-position: bottom;
 }
 
-section{
+/* section{
     background-image: url(/images/bg-pattern-top.svg);
-    background-position: top;
-}
+    background-position: left;
+    background-repeat: no-repeat;
+} */
 
 .motherContainer{
     max-width: 375px;
