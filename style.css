@@ -5,3 +5,15 @@
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 18px;
 }
+
+body{
+    background-color: ;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 90px 30px;
+}
