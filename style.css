@@ -24,7 +24,7 @@ section{
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding: 90px 10px;
+    padding: 90px 30px;
     /* background-image: url(/images/bg-pattern-top.svg); */
 }
 
@@ -35,10 +35,14 @@ section{
 } */
 
 .motherContainer{
+    width: 100%;
     max-width: 375px;
     background-color: white;
+    border-radius: 10px;
 }
 
 .background{
-    /* background-image: url(/images/bg-pattern-card.svg); */
+    height: 10rem;
+    background-image: url(/images/bg-pattern-card.svg);
+    border-radius: 10px 10px 0 0;
 }
