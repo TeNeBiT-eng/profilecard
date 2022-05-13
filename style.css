@@ -24,7 +24,7 @@ section{
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding: 90px 30px;
+    padding: 50px 30px;
     /* background-image: url(/images/bg-pattern-top.svg); */
 }
 
@@ -87,6 +87,8 @@ ul{
 
 ul li{
     text-align: center;
+    width: 90%;
+    margin: 0 auto;
 }
 
 ul li h1{
