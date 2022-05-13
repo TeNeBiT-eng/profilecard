@@ -4,10 +4,11 @@
     box-sizing: border-box;
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 18px;
+    list-style-type: none;
 }
 
 body{
-    background-color: ;
+    background-color: hsl(185, 75%, 39%);
 }
 
 section{
