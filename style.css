@@ -46,3 +46,31 @@ section{
     background-image: url(/images/bg-pattern-card.svg);
     border-radius: 10px 10px 0 0;
 }
+
+img{
+    border-radius: 50%;
+    border: 5px solid white;
+    width: 30%;
+    transition: .6s;
+}
+
+img:hover{
+    transform: scale(1.2);
+}
+
+.img_container{
+
+    transform: translateX(100%);
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+
+}
+
+.txt_container p{
+    text-transform: capitalize;
+    text-align: center;
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+    word-spacing: 1px;
+}
